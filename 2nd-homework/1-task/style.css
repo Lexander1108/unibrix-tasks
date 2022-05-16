@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mainForm, .menu {
+    margin: auto;
+    width: 20%;
+}
+
+
+
