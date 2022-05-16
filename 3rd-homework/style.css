@@ -1,0 +1,19 @@
+table, th, td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: gray;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+}
+
+th {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+th:hover {
+    background: rgb(100, 100, 100);
+}

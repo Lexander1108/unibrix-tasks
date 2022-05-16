@@ -1,0 +1,32 @@
+table, th, td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: gray;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+.tableHeadBaseCurrency:hover, 
+.tableHeadCurrency:hover, 
+.tableHeadBuy:hover, 
+.tableHeadSale:hover {
+    background: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.numberOfRows {
+    margin: auto;
+    text-align: center;
+    width: 40px;
+}
+
+.forwardButton, .backButton {
+    width: 20px;
+}

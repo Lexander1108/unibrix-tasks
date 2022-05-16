@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="currencyTable">
+        <thead>
+            <tr>
+                <th>Items per page:</th>
+                <th>
+                    <form onsubmit="pagination()">
+                        <input type="number" class="numberOfRows"></input>
+                    </form>
+                </th>
+                <th><input type="image" class="backButton" src="images/back-button-icon.jpg"></input></th>
+                <th><input type="image" class="forwardButton" src="images/forward-button-icon.jpg"></th>
+            </tr>
+            <tr>
+                <th class="tableHeadBaseCurrency">Base currency</th>
+                <th class="tableHeadCurrency">Currency</th>
+                <th class="tableHeadBuy">Buy</th>
+                <th class="tableHeadSale">Sale</th>
+            </tr>
+        </thead>
+        <tbody class="tableBody"></tbody>
+    </table>
+    <template class="tableTemplate">
+        <tr>
+            <td class="baseCurrency">1</td>
+            <td class="currency"></td>
+            <td class="buy"></td>
+            <td class="sale"></td>
+        </tr>
+    </template>
+    <script src="script.js"></script>
+</body>
+</html>
