@@ -1,0 +1,22 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana;
+}
+
+.firstHeading, .textField {
+    text-align: center;
+}
+
+.list {
+    margin: auto;
+    width: 25%;
+}
+
+#l1 {
+    list-style-position: inside;
+    font-size: 25px;
+}
+
+#second, #fifth {
+    color:green;
+}
