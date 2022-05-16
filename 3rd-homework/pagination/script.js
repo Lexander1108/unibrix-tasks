@@ -59,22 +59,3 @@ function pagination (){
     changeOfPage(forwardButton, numberOfRows, 10);
     changeOfPage(backButton, 0, numberOfRows)
 }
-
-const currencyHeadingElement = document.querySelector('tableHeadCurrency');
-const baseCurrencyHeadingElement = document.querySelector('tableHeadBaseCurrency');
-const buyHeadingElement = document.querySelector('tableHeadBuy');
-const saleHeadingElement = document.querySelector('tableHeadSale');
-
-function byField(key) {
-    return (a, b) => a[key] > b[key] ? 1 : -1;
-}
-
-function sortElements(element, data, str){
-    element.addEventListener('click', () => {
-      data.sort(byKey(str));
-      tableBodyElement.innerHTML = '';
-      tableFilling(data);
-    });
-}
-
-sortElements(currencyHeadingElement, data, 'tableHeadCurrency');
