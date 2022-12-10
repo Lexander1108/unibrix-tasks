@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa51684-63be-42b9-afaf-22de7562d3f6" name="Changes" comment="removed useless classes from stylesheet">
+    <list default="true" id="1aa51684-63be-42b9-afaf-22de7562d3f6" name="Changes" comment="created left-arrow button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -77,7 +77,7 @@
       <updated>1670563575161</updated>
       <workItem from="1670563576292" duration="67000" />
       <workItem from="1670563650875" duration="3287000" />
-      <workItem from="1670587721549" duration="7469000" />
+      <workItem from="1670587721549" duration="9094000" />
     </task>
     <task id="LOCAL-00001" summary="uploaded html file">
       <created>1670565295878</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670597046894</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created left-arrow button">
+      <created>1670654642012</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670654642012</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="uploaded images" />
     <MESSAGE value="replaced margins in navigation with grids" />
     <MESSAGE value="removed useless classes from stylesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed useless classes from stylesheet" />
+    <MESSAGE value="created left-arrow button" />
+    <option name="LAST_COMMIT_MESSAGE" value="created left-arrow button" />
   </component>
 </project>
