@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa51684-63be-42b9-afaf-22de7562d3f6" name="Changes" comment="replaced margins in navigation with grids">
+    <list default="true" id="1aa51684-63be-42b9-afaf-22de7562d3f6" name="Changes" comment="removed useless classes from stylesheet">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +77,7 @@
       <updated>1670563575161</updated>
       <workItem from="1670563576292" duration="67000" />
       <workItem from="1670563650875" duration="3287000" />
-      <workItem from="1670587721549" duration="4779000" />
+      <workItem from="1670587721549" duration="7469000" />
     </task>
     <task id="LOCAL-00001" summary="uploaded html file">
       <created>1670565295878</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670596921413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removed useless classes from stylesheet">
+      <created>1670597046894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670597046894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
     <MESSAGE value="uploaded stylesheet file" />
     <MESSAGE value="uploaded images" />
     <MESSAGE value="replaced margins in navigation with grids" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced margins in navigation with grids" />
+    <MESSAGE value="removed useless classes from stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed useless classes from stylesheet" />
   </component>
 </project>
