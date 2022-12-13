@@ -178,6 +178,7 @@ body {
     justify-content: center;
     align-items: center;
     background: url("images/next-slider.jpg");
+    font-weight: bold;
     width: 10%;
     margin-left: 0;
     padding: 5px;
