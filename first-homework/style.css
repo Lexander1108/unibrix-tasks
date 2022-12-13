@@ -6,11 +6,11 @@ body {
 
 .top-navigation {
     display: grid;
-    grid-template-columns: 10% 250px 250px auto 24px 24px 24px 24px 100px 20%;
+    grid-template-columns: 10% 250px 250px auto 24px 24px 24px 24px 70px 200px 10%;
     align-items: center;
     background-color: #4a657d;
     color: white;
-    height: 40px;
+    height: 41px;
     width: 100%;
 }
 .top-navigation img {
@@ -32,6 +32,28 @@ body {
 
 .top-navigation__email-option img {
     margin-right: 5px;
+}
+
+.slider__heading {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 10% 38% 90px 125px 85px 150px 10%;
+    box-shadow: 0 2px 2px lightgray;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+    z-index: 11;
+    position: absolute;
+}
+
+.navigation a {
+    font-weight: bold;
+    color: #4a657d;
 }
 
 
